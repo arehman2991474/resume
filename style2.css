@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+/* ---------------------header------------------------------ */
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 25vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg.1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 100%;
+    display: flex;
+    align-items:center;
+}    
+
+.logo{
+    
+    width: 150px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(15, 212, 212, 0.623);;
+    font-size: 13px;
+}
+
+nav ul li a:hover{ 
+    background-color: rgba(15, 212, 212, 0.623); 
+    color: black; 
+    border: 2px solid black; 
+}
+/* ---------------------header end------------------------------ */
+
+/* ---------------------images------------------------------ */
+
+h1{
+    text-align: center;
+    color: rgba(15, 212, 212, 0.623);
+    margin: 20px 0 20px;
+    background-color: black;
+}
+
+h1:hover{
+    text-align: center;
+    color: black;
+    margin: 20px 0 20px;
+    background-color: rgba(15, 212, 212, 0.623);
+}
+
+.nor{
+    
+    text-align: center;
+    color: rgba(15, 212, 212, 0.623);
+    margin: 50px 0 20px;
+    background-color: black; 
+}
+
+.nor:hover{
+    text-align: center;
+    color: black;
+    margin: 50px 0 20px;
+    background-color: rgba(15, 212, 212, 0.623);
+}
+
+/* ---------------------image1------------------------------ */
+
+.gallery1{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.gallery1 .ano1{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+
+.gallery1 .ano1:hover{
+    transform: scale(1.1); 
+}
+
+.gallery1 img{
+    width: 350px;
+    padding: 33px;
+    border-radius: 75px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.gallery1 .ano1 .an1 {
+    position:absolute;
+    text-align: center;
+    bottom: 8%;
+    border-radius: 70px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 310px;
+    padding: 20px;
+    margin-left: 32px; 
+}
+.an1 h2{
+    font-size: 20px;
+}
+
+.an1 p{
+    font-size: 10px;
+    
+}
+
+
+/* ---------------------image1 end------------------------------ */
+
+/* ---------------------image2------------------------------ */
+
+.gallery2{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.gallery2 .ano2{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+
+.gallery2 .ano2:hover{
+    transform: scale(1.1); 
+}
+
+.gallery2 img{
+    width: 350px;
+    padding: 33px;
+    border-radius: 75px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.gallery2 .ano2 .an2 {
+    position:absolute;
+    text-align: center;
+    bottom: 8%;
+    border-radius: 70px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 310px;
+    padding: 20px;
+    margin-left: 32px; 
+}
+
+.an2 h2{
+    font-size: 20px;
+}
+
+.an2 p{
+    font-size: 10px;
+    
+}
+
+/* ---------------------image2 end------------------------------ */
+
+/* ---------------------image3------------------------------ */
+
+.gallery3{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.gallery3 .ano3{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+
+.gallery3 .ano3:hover{
+    transform: scale(1.1); 
+}
+
+.gallery3 img{
+    width: 350px;
+    padding: 33px;
+    border-radius: 75px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.gallery3 .ano3 .an3 {
+    position:absolute;
+    text-align: center;
+    bottom: 8%;
+    border-radius: 70px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 310px;
+    padding: 20px;
+    margin-left: 32px; 
+}
+
+.an3 h2{
+    font-size: 20px;
+}
+
+.an3 p{
+    font-size: 10px;
+    
+}
+
+/* ---------------------image3 end------------------------------ */
+
+/* ---------------------image4------------------------------ */
+
+.gallery4{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.gallery4 .ano4{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+
+.gallery4 .ano4:hover{
+    transform: scale(1.1); 
+}
+
+.gallery4 img{
+    width: 350px;
+    padding: 33px;
+    border-radius: 75px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.gallery4 .ano4 .an4 {
+    position:absolute;
+    text-align: center;
+    bottom: 8%;
+    border-radius: 50px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 310px;
+    padding: 20px;
+    margin-left: 35px; 
+}
+
+.an4 h2{
+    font-size: 20px;
+}
+
+.an4 p{
+    font-size: 10px;
+    
+}
+
+/* ---------------------image4 end------------------------------ */
+
+/* ---------------------images end------------------------------ */
+
+/* ---------------------Footer------------------------------ */
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 60px 0;
+    background: rgba(15, 212, 212, 0.623);
+    color: black;
+    display: flex;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.col-1 a:hover{
+    display: block;
+    text-decoration: none;
+    color: rgb(9, 3, 109);
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+}
+
+button{
+    width: 180px;
+    color: rgba(15, 212, 212, 0.623);
+    font-size: 12px;
+    padding: 12px 0;
+    background: black;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+button:hover{
+    width: 180px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgba(15, 212, 212, 0.623);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+.social-icons i:hover{
+    font-size: 22px;
+    margin: 10px;
+    color: rgb(9, 3, 109);
+    cursor: pointer;
+}

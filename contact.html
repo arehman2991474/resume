@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Contact-us</title>
+    <link rel="stylesheet" href="style4.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+<!-- ------------------------------------header------------------------------------------ -->
+    <div class="container">
+        <div class="navbar">
+            <img src="./a.a 2.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+            <img src="./1.png" class="menu-icon">
+        </div>
+<!-- ------------------------------------header end------------------------------------------ -->
+
+<!-- ------------------------------------Contact-Box------------------------------------------ -->
+
+<h1 class="for">Contact Us</h1>
+
+<div class="contact">
+    <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <h2>Contact Us</h2>
+                <input type="text" id="name" class="field" placeholder="Your Name" required>
+                <input type="email" id="email" class="field" placeholder="Your Email" required>
+                <input type="text" id="phone" class="field" placeholder="Your Phone" required>
+                <textarea id="massage" class="field area" placeholder="Message"></textarea>
+                <button class="btn">Send</button>
+            </form>  
+        </div>
+    </div> 
+</div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "ar0300233@gmail.com",
+                Password : "kaka2991474",
+                To : 'ar0300233@gmail.com',
+                From : Document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script>
+<!-- ------------------------------------Contact-Box end------------------------------------------ -->
+
+<!-- ------------------------------------Footer------------------------------------------ -->
+
+<div class="footer">
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="index.html">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contect us</a>
+    </div>
+    <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+            <input type="text" placeholder="Your Email Address" required>
+            <br>
+            <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+    </div>
+    <div class="col-3">
+        <h3>CONTACT</h3>
+        <p>aptech urc center karachi<br>+92 323467890</p>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </div>
+</div>
+</body>
+</html>

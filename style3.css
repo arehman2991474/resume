@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto' 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* ---------------------header------------------------------ */
+.container{
+    width: 100%;
+    height: 25vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./bg.1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 100%;
+    display: flex;
+    align-items:center;
+}    
+
+.logo{
+    
+    width: 150px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(15, 212, 212, 0.623);;
+    font-size: 13px;
+}
+
+nav ul li a:hover{ 
+    background-color: rgba(15, 212, 212, 0.623);; 
+    color: black; 
+    border: 2px solid black; 
+}
+/* ---------------------header end------------------------------ */
+
+.box{
+    width: 1518px;
+    height: 282px;
+}
+   
+.section-1 {
+    margin-top: 50px;
+    height: 750px;
+    width: 1518px;
+    background-image: url(pa.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
+.section-2{
+    background: rgba(15, 212, 212, 0.623);
+    color: #000 ;
+}
+    
+.section-3 {
+    height: 750px;
+    width: 1518px;
+    background-image: url(sixth.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
+.section-4{
+    background: rgba(15, 212, 212, 0.623);
+    color: #000 ;
+}
+
+.section-5 {
+    height: 750px;
+    width: 1518px;
+    background-image: url(present292.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
+.section-6{
+    background: rgba(15, 212, 212, 0.623);
+    color: #000 ;
+}
+
+.section-7 {
+    height: 750px;
+    width: 1518px;
+    background-image: url(future2929.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
+.section-8{
+    background: rgba(15, 212, 212, 0.623);
+    color: #000 ;
+}
+
+.box p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.box h1{
+    font-size: 50px;
+   text-shadow: 0px 0px 5px #000;
+}
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 60px 15%;
+    background: rgba(15, 212, 212, 0.623);
+    color: black;
+    display: flex;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+button{
+    width: 180px;
+    color: rgba(15, 212, 212, 0.623);
+    font-size: 12px;
+    padding: 12px 0;
+    background: black;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+ button:hover{
+    width: 180px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgba(15, 212, 212, 0.623);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.col-1 a:hover{
+    display: block;
+    text-decoration: none;
+    color: rgb(9, 3, 109);
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+.social-icons i:hover{
+    font-size: 22px;
+    margin: 10px;
+    color: rgb(9, 3, 109);
+    cursor: pointer;
+}
+

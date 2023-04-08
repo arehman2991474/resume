@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* ---------------------header------------------------------ */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./bg.1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 20%;
+    display: flex;
+    align-items:center;
+}    
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(15, 212, 212, 0.623);;
+    font-size: 13px;
+    
+}
+
+nav ul li a:hover{ 
+    background-color: rgba(15, 212, 212, 0.623);; 
+    color: black; 
+    border: 2px solid black;
+    border-radius: 2px; 
+}
+
+.row{
+    display: flex;
+    height: 75%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    padding-left: 3%;
+    color: rgba(15, 212, 212, 0.623);
+    font-size: 60px;
+}
+
+.row p{
+    padding-left: 3%;
+    color: rgba(15, 212, 212, 0.623);
+    font-size: 11px;
+    line-height: 15px;
+}
+
+ button{
+    width: 180px;
+    color: rgba(15, 212, 212, 0.623);
+    font-size: 12px;
+    padding: 12px 0;
+    background: black;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+ button:hover{
+    width: 180px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgba(15, 212, 212, 0.623);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px -100px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 25%;
+}
+
+.card1{
+    background-image: url(./pa.jpg);
+}
+
+.card2{
+    background-image: url(./sixth.jpg);
+}
+
+.card3{
+    background-image: url(./present292.jpg);
+}
+
+.card4{
+    background-image: url(./future2929.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+/* ---------------------header end------------------------------ */
+
+
